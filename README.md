@@ -3,7 +3,9 @@
 ## About
 The idea behind this project was to implement an image sharing website where users could create an account and upload images using their account. The goal of this project was to construct an application using the web technologies introduced in the Advanced Web Technologies course (JavaScript, PHP, database communication with MySQL).
 
-### Specific documentation about files in the folders below can be found within the files themselves 
+Note: this repository does not contain the schema for the database which is needed to run this application.
+
+### Specific documentation about files in the folders below can be found within the files themselves
 
 ## Project structure
 class/
