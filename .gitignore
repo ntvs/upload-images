@@ -1,0 +1,5 @@
+#The action folder is deprecated
+/action/*
+
+#User image uploads
+/uploads/*

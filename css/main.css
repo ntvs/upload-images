@@ -1,0 +1,209 @@
+@font-face {
+	font-family: uploadImages;
+	src: url("../font/Vdj.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.menu, h1, footer p {
+	font-family: uploadImages;
+}
+
+h1 {
+	font-size: 31px;
+}
+
+body {
+	background-color: #f2f2f2;
+	min-height: 960px;
+	font-family: arial;
+}
+
+footer {
+	margin-top: 30px;
+	text-align: center;
+
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+
+	height: 150px;
+	width: 100%;
+	background-color: #075dff;
+}
+
+footer p {
+	color: blue;
+}
+
+p {
+	color: #898989;
+}
+
+.wrapper {
+	width: 900px;
+	margin: 0px auto 0px auto;
+	user-select: none;
+}
+
+ul{
+	list-style: none;
+}
+
+.content {
+	display: grid;
+	width: 100%;
+	/*grid-template-columns: 36% 15% 47%;*/
+	grid-template-columns: 330px 140px 430px;
+	/*grid-template-columns: repeat(auto-fit, minmax(140px, 430px));*/
+}
+
+/*Masthead styles*/
+
+.masthead {
+	background-color: #dadada;	
+}
+
+.logo {
+	width: 120px;
+	padding: 10px 0px;
+	vertical-align: middle;
+}
+
+.menu {
+	float: right;
+	margin-top: 22px;
+	font-size: 13px;
+}
+
+.menu a, .menu a:visited {
+	text-decoration: none;
+	color: #075dff;
+}
+
+/*Form styles*/
+
+#signUpForm p, #signUpForm label, #signInForm p, #signInForm label {
+	color: #898989;
+	font-size: 15px;
+}
+
+#signUpForm li, #signInForm li, #dragUpload li {
+	padding: 10px 0px;
+}
+
+#signUpForm ul li ul li, #signInForm ul li ul li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+#signUpForm input, #signUpForm .check, #signInForm input, #signInForm .check, #fileLabel, #dragUpload input {
+	border: 2px white solid;
+	border-radius: 3px;
+	padding: 8px 5px 12px 5px;
+	color: #898989;
+}
+
+#signUpButton, #signInButton {
+	background-color: #ff7fec;
+	color: #ff1dde;
+}
+
+#uploadButton {
+	background-color: #ffcc00;
+	color: #1d1d1d;
+}
+
+#signUpButton, #signInButton, #uploadButton {
+	border: none;
+	border-radius: 3px;
+	padding: 8px 15px 12px 15px;
+	font-size: 12px;
+	font-weight: bold;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+#signUpButton:hover, #signInButton:hover {
+	color: #aa2897;
+	background-color: #de5dcb;
+}
+
+#signUpButton:active, #signInButton:active {
+	color: #ff1dde;
+	background-color: #ff7fec;
+}
+
+#uploadButton:hover {
+	background-color: #ffd83d;
+}
+
+#uploadButton:active {
+	background-color: #ffcc00;
+}
+
+/*File upload styles*/
+
+#dragUpload {
+	transition: 0.3s;
+}
+
+#dragUpload .hovered {
+	box-shadow: 0 0 10px lightblue;
+	border: solid 2px lightblue;
+}
+
+#fileLabel {
+	background-color: white;
+	border: 2px white solid;
+	border-radius: 10px;
+	display: block;
+	width: 97%;
+	height: 300px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+
+	transition: 0.3s;
+}
+
+#fileLabel h2 {
+	margin: 112px 0px 10px 0px;
+}
+
+/*pic panel*/
+
+.imageGrid {
+	overflow-y: scroll;
+	height: 700px;
+	width: 400px;
+	scrollbar-width: none;
+}
+/*::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent
+}*/
+
+.picPanel {
+	width: 90%;
+	height: 250px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.uploaderTag {
+	background-color: gray;
+	position: relative;
+	top: -35px;
+	width: 90%;
+	padding: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color: white;
+
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,90,0) 100%);
+}
