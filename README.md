@@ -1,7 +1,6 @@
 # UploadImages - Login & upload images online
 
-<img src="https://i.imgur.com/auCc25Y.png" alt="Home page" style="width: 200px; height: auto;" />
-<img src="https://i.imgur.com/D4u8qJ6.png" alt="Register page" style="width: 200px; height: auto;" />
+<img src="https://i.imgur.com/auCc25Y.png" alt="Home page" style="width: 850px; height: auto;" />
 
 ## About
 The idea behind this project was to implement an image sharing website where users could create an account and upload images using their account. The goal of this project was to construct an application using the web technologies introduced in the Advanced Web Technologies course (JavaScript, PHP, database communication with MySQL).
